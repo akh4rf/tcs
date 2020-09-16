@@ -634,7 +634,7 @@ table-width: ''
 id: specvsimp
 ---
 *Setting* ; *Specification* ; *Implementation*
-_Finite computation_ ; __Functions__ mapping $\{0,1\}^n$ to $\{0,1\}^m$ ; __Circuits__, __Straightline programs__
+_Finite computation_ ; __Functions__ mapping $\{0,1\}^n$ to $\{0,1\}^m$ ; __Circuits__, __Straight-line programs__
 _Infinite computation_ ; __Functions__ mapping $\{0,1\}^*$ to $\{0,1\}$ or to $\{0,1\}^*$. ; __Algorithms__, __Turing Machines__, __Programs__
 ```
 

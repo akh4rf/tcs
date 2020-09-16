@@ -569,7 +569,7 @@ For other models such as Turing machines we have similar time hierarchy results 
 
 
 We have now seen two measures of "computation cost" for functions.
-In [secdefinesizeclasses](){.ref} we defined the complexity of computing _finite_ functions using circuits / straightline programs.
+In [secdefinesizeclasses](){.ref} we defined the complexity of computing _finite_ functions using circuits / straight-line programs.
 Specifically,  for a finite function $g:\{0,1\}^n \rightarrow \{0,1\}$ and number $T\in \N$,  $g\in SIZE(T)$ if there is a circuit of at most $T$ NAND gates (or equivalently  a $T$-line NAND-CIRC program) that computes $g$.
 To relate this to the classes $TIME(T(n))$ defined in this chapter we first need to extend the class $SIZE(T(n))$ from finite functions to functions with unbounded input length.
 
@@ -875,7 +875,7 @@ To summarize, the two models of computation we have described so far are:
 * **Uniform models:** _Turing machines_, _NAND-TM programs_,  _RAM machines_, _NAND-RAM programs_, _C/JavaScript/Python_, etc.  These models include loops and unbounded memory  hence a single program can compute a function with unbounded input length. 
 
 
-* **Non-uniform models:** _Boolean Circuits_ or _straightline programs_  have no loops and can only compute finite functions. The time to  execute them is exactly the number of lines or gates they contain. 
+* **Non-uniform models:** _Boolean Circuits_ or _straight-line programs_  have no loops and can only compute finite functions. The time to  execute them is exactly the number of lines or gates they contain. 
 
 For a function $F:\{0,1\}^* \rightarrow \{0,1\}$ and some nice time bound $T:\N \rightarrow \N$, we know that:
 

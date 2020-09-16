@@ -66,7 +66,7 @@ __Part II__ of the book contained a _qualitative study_ of computation of _infin
 
 __Part III__ of the book, beginning with this chapter, merges the two approaches and contains a _quantitative study_ of computation of _infinite functions_. In this part we ask how do resources for computing a function _scale_ with the length of the input.
 In [chapmodelruntime](){.ref} we define the notion of running time, and the class $\mathbf{P}$ of functions that can be computed using a number of steps that scales _polynomially_ with the input length.
-In [nonuniformcompsec](){.ref} we will relate this class  to the models of Boolean circuits and straightline programs that we studied in Part I. 
+In [nonuniformcompsec](){.ref} we will relate this class  to the models of Boolean circuits and straight-line programs that we studied in Part I. 
 :::
 
 

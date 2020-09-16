@@ -341,7 +341,7 @@ Prove that $NANDSAT \in \mathbf{NP}$.
 :::
 
 ::: {.solution data-ref="NANDSATinNP"}
-We have seen that the circuit (or straightline program) evaluation problem can be computed in polynomial time. 
+We have seen that the circuit (or straight-line program) evaluation problem can be computed in polynomial time. 
 Specifically, given a NAND-CIRC program $Q$ of $s$ lines and $n$ inputs, and $w\in \{0,1\}^n$, we can evaluate $Q$ on the input $w$ in time which is polynomial in $s$ and hence verify whether or not $Q(w)=1$.
 :::
 

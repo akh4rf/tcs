@@ -66,7 +66,7 @@ We will explore this issue of "gate complexity" more deeply in [codeanddatachap]
 
 ## Some examples of syntactic sugar  { #secsyntacticsugar }
 
-We now present some examples of "syntactic sugar" transformations that we can use in constructing straightline programs or circuits.
+We now present some examples of "syntactic sugar" transformations that we can use in constructing straight-line programs or circuits.
 We focus on the _straight-line programming language_ view of our computational models, and specifically (for the sake of concreteness) on the NAND-CIRC programming language.
 This is convenient because many of the syntactic sugar transformations we present are easiest to think about in terms of applying "search and replace" operations to the source code of a program.
 However,  by [equivalencemodelsthm](){.ref}, all of our results hold equally well for circuits, whether ones using NAND gates or Boolean circuits that use the  AND, OR, and NOT operations.
@@ -448,7 +448,7 @@ For $k>1$, we use the following pseudocode:
 
 ```python
 a = LOOKUP_(k-1)(X[0],...,X[2^(k-1)-1],i[1],...,i[k-1])
-b = LOOKUP_(k-1)(X[2^(k-1)],...,Z[2^(k-1)],i[1],...,i[k-1])
+b = LOOKUP_(k-1)(X[2^(k-1)],...,X[(2^k)-1)],i[1],...,i[k-1])
 return IF(i[0],b,a)
 ```
 
